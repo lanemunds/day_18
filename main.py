@@ -5,6 +5,7 @@ timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
 color_list = ['red', 'green', 'blue', 'orange', 'black',
               'yellow', 'brown', 'purple', 'pink', 'gold', 'silver', "gray"]
+timmy_the_turtle.width(5)
 
 timmy_the_turtle.color(random.choice(color_list))
 for turt in range(3):
