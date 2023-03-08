@@ -10,11 +10,11 @@ turtle.colormode(255)
 timmy_the_turtle.speed('fastest')
 
 
-for blank in range(45):
+for blank in range(80):
     timmy_the_turtle.color(random.choice(color_list))
     timmy_the_turtle.circle(100)
     current_heading = timmy_the_turtle.heading()
-    timmy_the_turtle.setheading(current_heading + 10)
+    timmy_the_turtle.setheading(current_heading + 5)
 
 screen = turtle.Screen()
 screen.exitonclick()
