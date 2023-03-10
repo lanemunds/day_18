@@ -18,6 +18,7 @@ def randWalk(num):
         timmy_the_turtle.forward(distance)
 
 
+
 randWalk(100)
 
 
