@@ -13,12 +13,20 @@ timmy_the_turtle.right(90)
 timmy_the_turtle.forward(200)
 timmy_the_turtle.right(180)
 timmy_the_turtle.pd()
-for turt in range(10):
-    timmy_the_turtle.dot(20, random.choice(color_list))
-    timmy_the_turtle.pu()
-    timmy_the_turtle.forward(50)
-    timmy_the_turtle.pd()
 
+for t in range(10):
+    for turt in range(10):
+        timmy_the_turtle.dot(20, random.choice(color_list))
+        timmy_the_turtle.pu()
+        timmy_the_turtle.forward(50)
+        timmy_the_turtle.pd()
+    timmy_the_turtle.pu()
+    timmy_the_turtle.right(270)
+    timmy_the_turtle.forward(50)
+    timmy_the_turtle.right(270)
+    timmy_the_turtle.forward(500)
+    timmy_the_turtle.right(180)
+    timmy_the_turtle.pd()
 
 screen = Screen()
 screen.exitonclick()
